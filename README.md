@@ -8,7 +8,6 @@ Afin de pouvoir comparer les données de 2023, nous avons également consulté l
 Pour offrir une expérience utilisateur plus complète, nous avons inclus des données sur les plats typiques de chaque pays, afin de déterminer si cela a une incidence sur les taux d'obésité. Pour ce faire, nous avons consulté la liste des plats typiques du monde entier disponible sur le site : https://bucketlistjourney.net/list-of-food-around-the-world/. 
 En outre, nous prévoyons de créer un graphique affichant des informations sur les calories, le nombre de sel, etc, des plats typiques de chaque pays. Lors de nos recherches, nous désirons pouvoir analyser les informations nutritives des plats. C’est pourquoi, nous nous baserons également sur ce site web : https://www.shakethatweight.co.uk/world-food-map/#dismiss
 Enfin, pour évaluer notre propre situation, nous allons calculer l’indice de masse corporelle (IMC) en utilisant le calculateur disponible sur le site Swissmilk à l'adresse suivante : https://www.swissmilk.ch/fr/alimentation/perdre-du-poids/calculateur-dimc-votre-indice-de-masse-corporelle/?gclid=Cj0KCQiApKagBhC1ARIsAFc7Mc7mqg5XFEwYwhnp68y50g6bSIngB77MzWq9V7HPCSheZOw-ZGnZtucaAvRlEALw_wcB&gclsrc=aw.ds
-Si nous ne disposons pas suffisamment de données sur le taux d'obésité d'un pays, de leur plat principal ou de leurs éléments nutritionnels provenant de nos sources, nous les compléterons avec des informations provenant d'autres sites web. 
 
 Description :
 
@@ -26,6 +25,5 @@ En explorant les différents plats typiques de chaque pays et leur relation poss
 
 Références : 
 
-Qui d'autre dans le web ou dans la recherche a utilisé ces données ? Dans quel but ?
 Dans le web, les cartes du monde avec le taux d'obésité sont fréquentes, nous avons les sites comme : https://www.citypopulation.de/en/world/bymap/obesity/ ou http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.html. Le premier site contient des données de 2020 et le deuxième de 1975 à 2016, avec la distribution pour chaque pays et une possibilité des transitions au cours des années. 
 Quand il s’agit des plats nationaux, nous avons ce site : https://www.shakethatweight.co.uk/world-food-map/#dismiss que nous allons nous baser sur les éléments nutritifs. Ainsi que ce site : https://www.tasteatlas.com/search, qui visualise le plat typique sur certains pays et lorsque nous cliquons dessus, nous arrivons sur une partie de leur site qui détaille le plat. 
