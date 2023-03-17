@@ -1,5 +1,6 @@
 # ProjetVisualDon
 
+1. Thématique :
 
 Contexte :
 
@@ -27,3 +28,7 @@ Références :
 
 Dans le web, les cartes du monde avec le taux d'obésité sont fréquentes, nous avons les sites comme : https://www.citypopulation.de/en/world/bymap/obesity/ ou http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.html. Le premier site contient des données de 2020 et le deuxième de 1975 à 2016, avec la distribution pour chaque pays et une possibilité des transitions au cours des années. 
 Quand il s’agit des plats nationaux, nous avons ce site : https://www.shakethatweight.co.uk/world-food-map/#dismiss que nous allons nous baser sur les éléments nutritifs. Ainsi que ce site : https://www.tasteatlas.com/search, qui visualise le plat typique sur certains pays et lorsque nous cliquons dessus, nous arrivons sur une partie de leur site qui détaille le plat. 
+
+2. Wireframe :
+
+https://www.figma.com/file/SZ0cosi4E6gtYCw7HKzUsQ/Wireframe_Cloe_Athiyya_M501?node-id=0%3A1&t=ecOQXI1lJnfJPwHH-1
