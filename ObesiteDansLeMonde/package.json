@@ -1,0 +1,28 @@
+{
+  "name": "projetvisualdon",
+  "version": "1.0.0",
+  "description": "1. Thématique :",
+  "scripts": {
+    "start": "parcel index.html",
+    "web": "webpack-dev-server",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clocloe/ProjetVisualDon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clocloe/ProjetVisualDon/issues"
+  },
+  "homepage": "https://github.com/clocloe/ProjetVisualDon#readme",
+  "dependencies": {
+    "chroma-js": "^2.4.2",
+    "d3": "^7.8.4",
+    "leaflet": "^1.9.3",
+    "lodash": "^4.17.21",
+    "parcel": "^2.8.3",
+    "webpack": "^5.81.0"
+  }
+}

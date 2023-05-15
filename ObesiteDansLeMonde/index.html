@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+     <title>L'obésité dans le monde </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <script  src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+      <script  src="https://d3js.org/d3.v6.js"></script>
+
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+      <script  src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+     <script src="http://unpkg.com/leaflet-sidebar-v2"> </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/leaflet.sync@0.2.1/L.Map.Sync.js"></script>
+     
+      <script type="module" src="src/index.js" ></script>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+      <link rel="stylesheet" href="src/index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+         
+          <style>
+            #map {
+              width: 100%;}
+
+          #slider {
+            position: relative;
+            z-index: 2;
+            top: 200px;
+            left: 10px;
+            width: 200px;
+            height: 10px;}
+
+          </style>
+  </head>
+   <body>
+   
+   
+    <div class="container">
+      <div class="section" id="home">
+    
+          <div id="homegauche">
+            
+                <div id="titrehome">
+                  <h3>L'obésité dans le monde</h3>
+                </div>
+                  <div>
+                    <h4 id="titreimc">Notre projet de visualisation de données sur l'obésité :</h4>
+                  </div>
+
+                  <div  id="explicationimc">
+                    
+                    <p>Afin d'en savoir plus sur cette norme, un diagramme en bâtons sera présenté pour illustrer « Les différents facteurs contribuant à l'obésité ».</br></br>
+                      Ensuite, une carte du monde sera affichée, avec du côté gauche, les taux de l'IMC pour chaque pays en 2014 et du côté droit, les taux de l’obésité pour chaque pays en 2023, afin d’en faire une comparaison. 
+                    
+                      En 2014, il est possible de cliquer sur un pays pour découvrir son taux de l’IMC, ainsi que la moyenne des taux de l’IMC chez les femmes et les hommes.
+                      En 2023, il est toujours possible de cliquer sur un pays, mais cette fois-ci, vous pourrez découvrir son taux d'obésité, son rang dans le monde, sa population.
+                      De nouveau, si les données sont accessibles, le diagramme en bâtons sera également pourvu d'informations.
+                    </br></br> 
+                      L'objectif est d'établir un lien entre le plat typique du pays et son taux d'obésité en 2023 mais aussi son taux de l’IMC en 2014.
+                      Sur la quatrième page, une courbe montrant, « Évolution du nombre de personnes obèses dans le monde depuis 1997 » sera mis en avant. 
+                      Enfin, un bubble chart sur « Les plats les plus calorifiques au monde » sera montré.
+
+                      </p>
+                  
+                  <button onclick="window.location.href='#section2'">L’obésité dans le monde →</button>
+                </div>
+
+          </div>
+    
+       <div id="homedroite">
+  <div class="infoimc-container">
+    <div class="infoimc" id="infoimc1">
+      Qu'est-ce que c'est l'IMC ?
+      La formule de l’IMC : Poids / Taille x Taille
+    </div>
+  </div>
+  <div class="infoimc-container">
+    <div class="infoimc" id="infoimc2">
+      L'IMC est l’abréviation de l'Indice de Masse Corporelle
+    </div>
+  </div>
+  <div class="infoimc-container">
+    <div class="infoimc" id="infoimc3">
+      Il s’agit d’une mesure universelle qui permet de classer le poids d'une personne
+    </div>
+  </div>
+  <div class="infoimc-container">
+    <div class="infoimc" id="infoimc4">
+      On calcule la taille d’un individu par rapport à son poids
+    </div>
+  </div>
+  <div class="infoimc-container">
+    <div class="infoimc" id="infoimc5">
+      Depuis 1997, l'Organisation Mondiale de la Santé (OMS) a défini l'IMC comme la référence pour évaluer les risques de surpoids chez les adultes
+    </div>
+  </div>
+        </div>
+
+  
+      </div>
+      
+    
+
+      <div class="section" id="section3">
+        <h4 id="titrecarte">Les différents facteurs contribuant à l'obésité</h4>
+
+        <div id="stat2" ></div>
+
+        <p>Il y a sept facteurs principaux qui jouent un rôle dans l'apparition de l'obésité. Les trois premières causes sont liées à l'alimentation, l'activité physique et les facteurs génétiques. Cependant, il faut également prendre en compte d'autres éléments tels que l'environnement, le stress, le sommeil et les médicaments, qui ont également une influence sur le taux d'obésité.</p>
+        
+      </div>
+
+
+      <div class="section" id="section2">
+
+        <h4 id="titrecarte"> Comparaison du taux de l’IMC et du taux d'obésité dans le monde entre 2014 et 2023</h4>
+      
+        <div id="map-container">
+     
+          <div id="map1" style="width: 100%; height: 100%; position: absolute; z-index: 1;"> <p id="p2014">2014</p></div>
+          <div id="map2" style="width: 100%; height: 100%; position: absolute; z-index: 0;"><p id="p2023">2023</p></div>
+          <div id="large-popup-container" style="display: none;"></div>
+           <input id="slider" type="range" min="0" max="100" value="100" />
+           <label class="switch" id="switch">
+            <input type="checkbox">
+            <span class="slider round" style="justify-content: center;"></span>
+          </label>
+    
+
+        </div>
+      
+     
+      </div>
+
+      <div id="section4">
+        <h4 id="titresection4">Évolution du nombre de personnes obèses dans le monde depuis 1997</h4>
+
+        <div id="stat3" >
+      </div>
+
+      <p>En 1997, 200'000'000 de personnes sont considérées obèses dans le monde. 
+        En 2017, ce nombre est de 580'000'000. C’est-à-dire qu’en 20 ans, 
+        le nombre de personnes obèses dans le monde à été multiplié par un ratio de 2,9.</p>
+            </div>
+
+
+				
+       <div class="section" id="section5">
+
+        <h4 id="titreplatcalorifique" style="text-align: center; "> <span style="color: rgb(227, 48, 48);">Top 10</span>  des plats plus caloriques dans le monde </h4>
+       
+        <div class="chart-container" id="platcalorifique">
+          <svg id="svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
+    
+        </div>
+    
+      </div>
+   </div>
+<footer>
+  <div class="footer">
+        <h1 class="logo-text"><span>Obésité</span> dans le monde</h1>
+        <h3>
+         Projet de Visualisation de données réalisé par Gex Cloé & Siswanto Athiyya  </h3>
+      
+          </div>
+</footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,1255 @@
+[
+  {
+    "code": "AFG",
+    "Country": "Afghanistan",
+    "value": 2.9,
+    "Female": 4.1,
+    "Male": 1.8
+  },
+  {
+    "code": "AGO",
+    "Country": "Angola",
+    "value": 10.2,
+    "Female": 14.2,
+    "Male": 6
+  },
+  {
+    "code": "ALB",
+    "Country": "Albania",
+    "value": 17.6,
+    "Female": 18.7,
+    "Male": 16.5
+  },
+  {
+    "code": "AND",
+    "Country": "Andorra",
+    "value": 29.5,
+    "Female": 30.5,
+    "Male": 28.5
+  },
+  {
+    "code": "ARE",
+    "Country": "United Arab Emirates",
+    "value": 37.2,
+    "Female": 45.1,
+    "Male": 33.8
+  },
+  {
+    "code": "ARG",
+    "Country": "Argentina",
+    "value": 26.3,
+    "Female": 28.9,
+    "Male": 23.6
+  },
+  {
+    "code": "ARM",
+    "Country": "Armenia",
+    "value": 19.5,
+    "Female": 22,
+    "Male": 17.2
+  },
+  {
+    "code": "ATG",
+    "Country": "Antigua and Barbuda",
+    "value": 30.9,
+    "Female": 38.7,
+    "Male": 22.8
+  },
+  {
+    "code": "AUS",
+    "Country": "Australia",
+    "value": 28.6,
+    "Female": 28.8,
+    "Male": 28.4
+  },
+  {
+    "code": "AUT",
+    "Country": "Austria",
+    "value": 18.4,
+    "Female": 16.3,
+    "Male": 20.5
+  },
+  {
+    "code": "AZE",
+    "Country": "Azerbaijan",
+    "value": 22.5,
+    "Female": 26.1,
+    "Male": 19
+  },
+  {
+    "code": "BDI",
+    "Country": "Burundi",
+    "value": 2.6,
+    "Female": 4.5,
+    "Male": 0.7
+  },
+  {
+    "code": "BEL",
+    "Country": "Belgium",
+    "value": 20.2,
+    "Female": 18.2,
+    "Male": 22.3
+  },
+  {
+    "code": "BEN",
+    "Country": "Benin",
+    "value": 9.3,
+    "Female": 14.5,
+    "Male": 4.1
+  },
+  {
+    "code": "BFA",
+    "Country": "Burkina Faso",
+    "value": 6.3,
+    "Female": 9.2,
+    "Male": 3.2
+  },
+  {
+    "code": "BGD",
+    "Country": "Bangladesh",
+    "value": 3.6,
+    "Female": 5.1,
+    "Male": 2.1
+  },
+  {
+    "code": "BGR",
+    "Country": "Bulgaria",
+    "value": 23.2,
+    "Female": 24.5,
+    "Male": 21.8
+  },
+  {
+    "code": "BHR",
+    "Country": "Bahrain",
+    "value": 35.1,
+    "Female": 42.8,
+    "Male": 30.5
+  },
+  {
+    "code": "BHS",
+    "Country": "Bahamas",
+    "value": 36.2,
+    "Female": 42.5,
+    "Male": 29.7
+  },
+  {
+    "code": "BIH",
+    "Country": "Bosnia and Herzegovina",
+    "value": 17.9,
+    "Female": 19.4,
+    "Male": 16.3
+  },
+  {
+    "code": "BLR",
+    "Country": "Belarus",
+    "value": 23.4,
+    "Female": 25.5,
+    "Male": 21
+  },
+  {
+    "code": "BLZ",
+    "Country": "Belize",
+    "value": 22.5,
+    "Female": 28.8,
+    "Male": 16.1
+  },
+  {
+    "code": "BRA",
+    "Country": "Brazil",
+    "value": 20,
+    "Female": 22.7,
+    "Male": 17.3
+  },
+  {
+    "code": "BRB",
+    "Country": "Barbados",
+    "value": 31.3,
+    "Female": 38.2,
+    "Male": 24.4
+  },
+  {
+    "code": "BRN",
+    "Country": "Brunei Darussalam",
+    "value": 18.1,
+    "Female": 20.1,
+    "Male": 16.2
+  },
+  {
+    "code": "BTN",
+    "Country": "Bhutan",
+    "value": 6.7,
+    "Female": 8.8,
+    "Male": 4.9
+  },
+  {
+    "code": "BWA",
+    "Country": "Botswana",
+    "value": 22.4,
+    "Female": 32.3,
+    "Male": 12.7
+  },
+  {
+    "code": "CAF",
+    "Country": "Central African Republic",
+    "value": 5.1,
+    "Female": 8,
+    "Male": 2.2
+  },
+  {
+    "code": "CAN",
+    "Country": "Canada",
+    "value": 28,
+    "Female": 29.1,
+    "Male": 26.8
+  },
+  {
+    "code": "CHE",
+    "Country": "Switzerland",
+    "value": 19.4,
+    "Female": 16.5,
+    "Male": 22.3
+  },
+  {
+    "code": "CHL",
+    "Country": "Chile",
+    "value": 27.8,
+    "Female": 32.2,
+    "Male": 23.3
+  },
+  {
+    "code": "CHN",
+    "Country": "China",
+    "value": 6.9,
+    "Female": 8,
+    "Male": 5.9
+  },
+  {
+    "code": "CMR",
+    "Country": "Cameroon",
+    "value": 11.4,
+    "Female": 17.1,
+    "Male": 5.8
+  },
+  {
+    "code": "COG",
+    "Country": "Congo",
+    "value": 11,
+    "Female": 15.7,
+    "Male": 6.4
+  },
+  {
+    "code": "COK",
+    "Country": "Cook Islands",
+    "value": 50.8,
+    "Female": 55.1,
+    "Male": 46.6
+  },
+  {
+    "code": "COL",
+    "Country": "Colombia",
+    "value": 21,
+    "Female": 25.7,
+    "Male": 16.1
+  },
+  {
+    "code": "COM",
+    "Country": "Comoros",
+    "value": 6.6,
+    "Female": 11,
+    "Male": 2.2
+  },
+  {
+    "code": "CPV",
+    "Country": "Cabo Verde",
+    "value": 13,
+    "Female": 17.4,
+    "Male": 8.6
+  },
+  {
+    "code": "CRI",
+    "Country": "Costa Rica",
+    "value": 24.3,
+    "Female": 29.5,
+    "Male": 19.2
+  },
+  {
+    "code": "CUB",
+    "Country": "Cuba",
+    "value": 25.2,
+    "Female": 31.5,
+    "Male": 19
+  },
+  {
+    "code": "CYP",
+    "Country": "Cyprus",
+    "value": 23.8,
+    "Female": 25.7,
+    "Male": 21.9
+  },
+  {
+    "code": "CZE",
+    "Country": "Czech Republic",
+    "value": 26.8,
+    "Female": 27.3,
+    "Male": 26.2
+  },
+  {
+    "code": "DEU",
+    "Country": "Germany",
+    "value": 20.1,
+    "Female": 18.5,
+    "Male": 21.9
+  },
+  {
+    "code": "DJI",
+    "Country": "Djibouti",
+    "value": 9.6,
+    "Female": 13.5,
+    "Male": 5.6
+  },
+  {
+    "code": "DMA",
+    "Country": "Dominica",
+    "value": 25.8,
+    "Female": 33,
+    "Male": 18.5
+  },
+  {
+    "code": "DNK",
+    "Country": "Denmark",
+    "value": 19.3,
+    "Female": 17,
+    "Male": 21.7
+  },
+  {
+    "code": "DOM",
+    "Country": "Dominican Republic",
+    "value": 23.9,
+    "Female": 29.5,
+    "Male": 18.2
+  },
+  {
+    "code": "DZA",
+    "Country": "Algeria",
+    "value": 24.8,
+    "Female": 30.8,
+    "Male": 18.8
+  },
+  {
+    "code": "ECU",
+    "Country": "Ecuador",
+    "value": 18.7,
+    "Female": 22.9,
+    "Male": 14.4
+  },
+  {
+    "code": "EGY",
+    "Country": "Egypt",
+    "value": 28.9,
+    "Female": 37.5,
+    "Male": 20.3
+  },
+  {
+    "code": "ERI",
+    "Country": "Eritrea",
+    "value": 4.1,
+    "Female": 6.9,
+    "Male": 1.4
+  },
+  {
+    "code": "ESP",
+    "Country": "Spain",
+    "value": 23.7,
+    "Female": 24.7,
+    "Male": 22.8
+  },
+  {
+    "code": "EST",
+    "Country": "Estonia",
+    "value": 22.6,
+    "Female": 22.9,
+    "Male": 22.2
+  },
+  {
+    "code": "ETH",
+    "Country": "Ethiopia",
+    "value": 4,
+    "Female": 6.6,
+    "Male": 1.5
+  },
+  {
+    "code": "FIN",
+    "Country": "Finland",
+    "value": 20.6,
+    "Female": 19.6,
+    "Male": 21.6
+  },
+  {
+    "code": "FJI",
+    "Country": "Fiji",
+    "value": 36.4,
+    "Female": 42.3,
+    "Male": 30.8
+  },
+  {
+    "code": "FRA",
+    "Country": "France",
+    "value": 23.9,
+    "Female": 24,
+    "Male": 23.8
+  },
+  {
+    "code": "GAB",
+    "Country": "Gabon",
+    "value": 17.6,
+    "Female": 22.5,
+    "Male": 12.9
+  },
+  {
+    "code": "GEO",
+    "Country": "Georgia",
+    "value": 20.8,
+    "Female": 24,
+    "Male": 17.2
+  },
+  {
+    "code": "GHA",
+    "Country": "Ghana",
+    "value": 12.2,
+    "Female": 18.9,
+    "Male": 5.4
+  },
+  {
+    "code": "GIN",
+    "Country": "Guinea",
+    "value": 6.8,
+    "Female": 10.3,
+    "Male": 3.2
+  },
+  {
+    "code": "GMB",
+    "Country": "Gambia",
+    "value": 10.9,
+    "Female": 15.8,
+    "Male": 5.8
+  },
+  {
+    "code": "GNB",
+    "Country": "Guinea-Bissau",
+    "value": 7.2,
+    "Female": 10.8,
+    "Male": 3.6
+  },
+  {
+    "code": "GNQ",
+    "Country": "Equatorial Guinea",
+    "value": 17.5,
+    "Female": 22.7,
+    "Male": 12.5
+  },
+  {
+    "code": "GRC",
+    "Country": "Greece",
+    "value": 22.9,
+    "Female": 23.8,
+    "Male": 21.9
+  },
+  {
+    "code": "GRD",
+    "Country": "Grenada",
+    "value": 26.2,
+    "Female": 34.3,
+    "Male": 18.1
+  },
+  {
+    "code": "GTM",
+    "Country": "Guatemala",
+    "value": 18.6,
+    "Female": 23.9,
+    "Male": 13
+  },
+  {
+    "code": "GUY",
+    "Country": "Guyana",
+    "value": 22.9,
+    "Female": 31.6,
+    "Male": 14.4
+  },
+  {
+    "code": "HND",
+    "Country": "Honduras",
+    "value": 18.2,
+    "Female": 24.1,
+    "Male": 12.4
+  },
+  {
+    "code": "HRV",
+    "Country": "Croatia",
+    "value": 23.3,
+    "Female": 24.1,
+    "Male": 22.5
+  },
+  {
+    "code": "HTI",
+    "Country": "Haiti",
+    "value": 11.9,
+    "Female": 16.6,
+    "Male": 7.2
+  },
+  {
+    "code": "HUN",
+    "Country": "Hungary",
+    "value": 24,
+    "Female": 23.9,
+    "Male": 24
+  },
+  {
+    "code": "IDN",
+    "Country": "Indonesia",
+    "value": 5.7,
+    "Female": 7.9,
+    "Male": 3.5
+  },
+  {
+    "code": "IND",
+    "Country": "India",
+    "value": 4.9,
+    "Female": 6.7,
+    "Male": 3.2
+  },
+  {
+    "code": "IRL",
+    "Country": "Ireland",
+    "value": 25.6,
+    "Female": 25.3,
+    "Male": 25.9
+  },
+  {
+    "code": "IRQ",
+    "Country": "Iraq",
+    "value": 23.8,
+    "Female": 30.5,
+    "Male": 17.2
+  },
+  {
+    "code": "ISL",
+    "Country": "Iceland",
+    "value": 22.8,
+    "Female": 21.5,
+    "Male": 24.1
+  },
+  {
+    "code": "ISR",
+    "Country": "Israel",
+    "value": 25.3,
+    "Female": 27,
+    "Male": 23.5
+  },
+  {
+    "code": "ITA",
+    "Country": "Italy",
+    "value": 21,
+    "Female": 21.6,
+    "Male": 20.4
+  },
+  {
+    "code": "JAM",
+    "Country": "Jamaica",
+    "value": 27.2,
+    "Female": 35.7,
+    "Male": 18.4
+  },
+  {
+    "code": "JOR",
+    "Country": "Jordan",
+    "value": 30.5,
+    "Female": 38.6,
+    "Male": 22.7
+  },
+  {
+    "code": "JPN",
+    "Country": "Japan",
+    "value": 3.3,
+    "Female": 3.2,
+    "Male": 3.4
+  },
+  {
+    "code": "KAZ",
+    "Country": "Kazakhstan",
+    "value": 23.4,
+    "Female": 25,
+    "Male": 21.6
+  },
+  {
+    "code": "KEN",
+    "Country": "Kenya",
+    "value": 7,
+    "Female": 11.1,
+    "Male": 2.8
+  },
+  {
+    "code": "KGZ",
+    "Country": "Kyrgyzstan",
+    "value": 14.4,
+    "Female": 17.3,
+    "Male": 11.5
+  },
+  {
+    "code": "KHM",
+    "Country": "Cambodia",
+    "value": 3.2,
+    "Female": 4.6,
+    "Male": 1.7
+  },
+  {
+    "code": "KIR",
+    "Country": "Kiribati",
+    "value": 40.6,
+    "Female": 48.5,
+    "Male": 32.9
+  },
+  {
+    "code": "KNA",
+    "Country": "Saint Kitts and Nevis",
+    "value": 28.3,
+    "Female": 35.3,
+    "Male": 21.2
+  },
+  {
+    "code": "KWT",
+    "Country": "Kuwait",
+    "value": 39.7,
+    "Female": 45.9,
+    "Male": 35.5
+  },
+  {
+    "code": "LAO",
+    "Country": "Lao People's Democratic Republic",
+    "value": 3.5,
+    "Female": 4.9,
+    "Male": 2.1
+  },
+  {
+    "code": "LBN",
+    "Country": "Lebanon",
+    "value": 31.9,
+    "Female": 37.7,
+    "Male": 26.3
+  },
+  {
+    "code": "LBR",
+    "Country": "Liberia",
+    "value": 6.6,
+    "Female": 10.6,
+    "Male": 2.7
+  },
+  {
+    "code": "LBY",
+    "Country": "Libya",
+    "value": 33.1,
+    "Female": 39.5,
+    "Male": 26.6
+  },
+  {
+    "code": "LCA",
+    "Country": "Saint Lucia",
+    "value": 26.9,
+    "Female": 33.9,
+    "Male": 19.7
+  },
+  {
+    "code": "LKA",
+    "Country": "Sri Lanka",
+    "value": 6.5,
+    "Female": 9.5,
+    "Male": 3.4
+  },
+  {
+    "code": "LSO",
+    "Country": "Lesotho",
+    "value": 14.2,
+    "Female": 24,
+    "Male": 4.1
+  },
+  {
+    "code": "LTU",
+    "Country": "Lithuania",
+    "value": 25.9,
+    "Female": 28.3,
+    "Male": 23.1
+  },
+  {
+    "code": "LUX",
+    "Country": "Luxembourg",
+    "value": 23.1,
+    "Female": 19.7,
+    "Male": 26.6
+  },
+  {
+    "code": "LVA",
+    "Country": "Latvia",
+    "value": 23.7,
+    "Female": 25.1,
+    "Male": 22
+  },
+  {
+    "code": "MAR",
+    "Country": "Morocco",
+    "value": 22.3,
+    "Female": 28.3,
+    "Male": 16.2
+  },
+  {
+    "code": "MDG",
+    "Country": "Madagascar",
+    "value": 5.4,
+    "Female": 8.6,
+    "Male": 2.2
+  },
+  {
+    "code": "MDV",
+    "Country": "Maldives",
+    "value": 7.9,
+    "Female": 10.8,
+    "Male": 5
+  },
+  {
+    "code": "MEX",
+    "Country": "Mexico",
+    "value": 28.1,
+    "Female": 33.1,
+    "Male": 22.8
+  },
+  {
+    "code": "MHL",
+    "Country": "Marshall Islands",
+    "value": 42.8,
+    "Female": 48.9,
+    "Male": 36.9
+  },
+  {
+    "code": "MLI",
+    "Country": "Mali",
+    "value": 6.8,
+    "Female": 9.9,
+    "Male": 3.8
+  },
+  {
+    "code": "MLT",
+    "Country": "Malta",
+    "value": 26.6,
+    "Female": 28.5,
+    "Male": 24.6
+  },
+  {
+    "code": "MMR",
+    "Country": "Myanmar",
+    "value": 2.9,
+    "Female": 4.3,
+    "Male": 1.4
+  },
+  {
+    "code": "MNE",
+    "Country": "Montenegro",
+    "value": 20,
+    "Female": 20.7,
+    "Male": 19.3
+  },
+  {
+    "code": "MNG",
+    "Country": "Mongolia",
+    "value": 16.7,
+    "Female": 18.8,
+    "Male": 14.6
+  },
+  {
+    "code": "MOZ",
+    "Country": "Mozambique",
+    "value": 5.3,
+    "Female": 8.7,
+    "Male": 1.8
+  },
+  {
+    "code": "MRT",
+    "Country": "Mauritania",
+    "value": 9.7,
+    "Female": 13.6,
+    "Male": 5.8
+  },
+  {
+    "code": "MUS",
+    "Country": "Mauritius",
+    "value": 17.9,
+    "Female": 24.3,
+    "Male": 11.2
+  },
+  {
+    "code": "MWI",
+    "Country": "Malawi",
+    "value": 5.3,
+    "Female": 8.9,
+    "Male": 1.6
+  },
+  {
+    "code": "MYS",
+    "Country": "Malaysia",
+    "value": 13.3,
+    "Female": 16,
+    "Male": 10.6
+  },
+  {
+    "code": "NAM",
+    "Country": "Namibia",
+    "value": 18.9,
+    "Female": 28.2,
+    "Male": 9.2
+  },
+  {
+    "code": "NER",
+    "Country": "Niger",
+    "value": 4.3,
+    "Female": 6.8,
+    "Male": 1.9
+  },
+  {
+    "code": "NGA",
+    "Country": "Nigeria",
+    "value": 11,
+    "Female": 16.3,
+    "Male": 5.9
+  },
+  {
+    "code": "NIC",
+    "Country": "Nicaragua",
+    "value": 17.1,
+    "Female": 23.2,
+    "Male": 10.8
+  },
+  {
+    "code": "NIU",
+    "Country": "Niue",
+    "value": 43.2,
+    "Female": 49,
+    "Male": 37.7
+  },
+  {
+    "code": "NLD",
+    "Country": "Netherlands",
+    "value": 19.8,
+    "Female": 18.3,
+    "Male": 21.4
+  },
+  {
+    "code": "NOR",
+    "Country": "Norway",
+    "value": 23.1,
+    "Female": 21.7,
+    "Male": 24.6
+  },
+  {
+    "code": "NPL",
+    "Country": "Nepal",
+    "value": 3.3,
+    "Female": 4.6,
+    "Male": 1.8
+  },
+  {
+    "code": "NRU",
+    "Country": "Nauru",
+    "value": 45.6,
+    "Female": 51.6,
+    "Male": 39.7
+  },
+  {
+    "code": "NZL",
+    "Country": "New Zealand",
+    "value": 29.2,
+    "Female": 30.8,
+    "Male": 27.7
+  },
+  {
+    "code": "OMN",
+    "Country": "Oman",
+    "value": 30.9,
+    "Female": 37.7,
+    "Male": 27.2
+  },
+  {
+    "code": "PAK",
+    "Country": "Pakistan",
+    "value": 5.4,
+    "Female": 7.3,
+    "Male": 3.7
+  },
+  {
+    "code": "PAN",
+    "Country": "Panama",
+    "value": 26.8,
+    "Female": 33.1,
+    "Male": 20.6
+  },
+  {
+    "code": "PER",
+    "Country": "Peru",
+    "value": 21.1,
+    "Female": 26.5,
+    "Male": 15.8
+  },
+  {
+    "code": "PHL",
+    "Country": "Philippines",
+    "value": 5.1,
+    "Female": 6.6,
+    "Male": 3.6
+  },
+  {
+    "code": "PLW",
+    "Country": "Palau",
+    "value": 47.6,
+    "Female": 52.2,
+    "Male": 43.1
+  },
+  {
+    "code": "PNG",
+    "Country": "Papua New Guinea",
+    "value": 27.9,
+    "Female": 33.4,
+    "Male": 22.6
+  },
+  {
+    "code": "POL",
+    "Country": "Poland",
+    "value": 25.2,
+    "Female": 26.7,
+    "Male": 23.5
+  },
+  {
+    "code": "PRT",
+    "Country": "Portugal",
+    "value": 20.1,
+    "Female": 20.3,
+    "Male": 19.8
+  },
+  {
+    "code": "PRY",
+    "Country": "Paraguay",
+    "value": 16.3,
+    "Female": 19.5,
+    "Male": 13.1
+  },
+  {
+    "code": "QAT",
+    "Country": "Qatar",
+    "value": 42.3,
+    "Female": 49.7,
+    "Male": 40
+  },
+  {
+    "code": "ROU",
+    "Country": "Romania",
+    "value": 21.7,
+    "Female": 22.7,
+    "Male": 20.5
+  },
+  {
+    "code": "RUS",
+    "Country": "Russian Federation",
+    "value": 24.1,
+    "Female": 27.4,
+    "Male": 20.3
+  },
+  {
+    "code": "RWA",
+    "Country": "Rwanda",
+    "value": 4,
+    "Female": 6.6,
+    "Male": 1.2
+  },
+  {
+    "code": "SAU",
+    "Country": "Saudi Arabia",
+    "value": 34.7,
+    "Female": 41.4,
+    "Male": 29.9
+  },
+  {
+    "code": "SDN",
+    "Country": "Sudan",
+    "value": 7.5,
+    "Female": 11.1,
+    "Male": 4
+  },
+  {
+    "code": "SEN",
+    "Country": "Senegal",
+    "value": 9.8,
+    "Female": 14.6,
+    "Male": 4.8
+  },
+  {
+    "code": "SGP",
+    "Country": "Singapore",
+    "value": 6.2,
+    "Female": 6.8,
+    "Male": 5.7
+  },
+  {
+    "code": "SLB",
+    "Country": "Solomon Islands",
+    "value": 27.7,
+    "Female": 33.7,
+    "Male": 21.8
+  },
+  {
+    "code": "SLE",
+    "Country": "Sierra Leone",
+    "value": 7.6,
+    "Female": 12,
+    "Male": 3.1
+  },
+  {
+    "code": "SLV",
+    "Country": "El Salvador",
+    "value": 21.8,
+    "Female": 27,
+    "Male": 15.9
+  },
+  {
+    "code": "SOM",
+    "Country": "Somalia",
+    "value": 4.6,
+    "Female": 7.2,
+    "Male": 2.1
+  },
+  {
+    "code": "SRB",
+    "Country": "Serbia",
+    "value": 19.5,
+    "Female": 20.5,
+    "Male": 18.6
+  },
+  {
+    "code": "SSD",
+    "Country": "South Sudan",
+    "value": 7.5,
+    "Female": 11.1,
+    "Male": 4
+  },
+  {
+    "code": "STP",
+    "Country": "Sao Tome and Principe",
+    "value": 12.3,
+    "Female": 18.2,
+    "Male": 6.2
+  },
+  {
+    "code": "SUR",
+    "Country": "Suriname",
+    "value": 26.1,
+    "Female": 32.9,
+    "Male": 19.4
+  },
+  {
+    "code": "SVK",
+    "Country": "Slovakia",
+    "value": 25.7,
+    "Female": 26.7,
+    "Male": 24.6
+  },
+  {
+    "code": "SVN",
+    "Country": "Slovenia",
+    "value": 25.1,
+    "Female": 25.5,
+    "Male": 24.6
+  },
+  {
+    "code": "SWE",
+    "Country": "Sweden",
+    "value": 20.5,
+    "Female": 18.6,
+    "Male": 22.5
+  },
+  {
+    "code": "SWZ",
+    "Country": "Swaziland",
+    "value": 17.7,
+    "Female": 27.8,
+    "Male": 7.5
+  },
+  {
+    "code": "SYC",
+    "Country": "Seychelles",
+    "value": 26.3,
+    "Female": 35.9,
+    "Male": 17.1
+  },
+  {
+    "code": "SYR",
+    "Country": "Syrian Arab Republic",
+    "value": 23.5,
+    "Female": 29.9,
+    "Male": 17.4
+  },
+  {
+    "code": "TCD",
+    "Country": "Chad",
+    "value": 8.1,
+    "Female": 12.3,
+    "Male": 4
+  },
+  {
+    "code": "TGO",
+    "Country": "Togo",
+    "value": 7.5,
+    "Female": 11.9,
+    "Male": 3
+  },
+  {
+    "code": "THA",
+    "Country": "Thailand",
+    "value": 8.5,
+    "Female": 11.1,
+    "Male": 5.7
+  },
+  {
+    "code": "TJK",
+    "Country": "Tajikistan",
+    "value": 13.6,
+    "Female": 17.3,
+    "Male": 9.9
+  },
+  {
+    "code": "TKM",
+    "Country": "Turkmenistan",
+    "value": 20.1,
+    "Female": 23.1,
+    "Male": 17.1
+  },
+  {
+    "code": "TLS",
+    "Country": "Timor-Leste",
+    "value": 2.2,
+    "Female": 3.2,
+    "Male": 1.2
+  },
+  {
+    "code": "TON",
+    "Country": "Tonga",
+    "value": 43.3,
+    "Female": 50.1,
+    "Male": 36.4
+  },
+  {
+    "code": "TTO",
+    "Country": "Trinidad and Tobago",
+    "value": 31.1,
+    "Female": 38,
+    "Male": 24.1
+  },
+  {
+    "code": "TUN",
+    "Country": "Tunisia",
+    "value": 27.1,
+    "Female": 33.8,
+    "Male": 20.3
+  },
+  {
+    "code": "TUR",
+    "Country": "Turkey",
+    "value": 29.5,
+    "Female": 35.8,
+    "Male": 22.9
+  },
+  {
+    "code": "TUV",
+    "Country": "Tuvalu",
+    "value": 40.3,
+    "Female": 46.4,
+    "Male": 34.5
+  },
+  {
+    "code": "UGA",
+    "Country": "Uganda",
+    "value": 4.9,
+    "Female": 8.3,
+    "Male": 1.6
+  },
+  {
+    "code": "UKR",
+    "Country": "Ukraine",
+    "value": 20.1,
+    "Female": 22.6,
+    "Male": 17.1
+  },
+  {
+    "code": "URY",
+    "Country": "Uruguay",
+    "value": 26.7,
+    "Female": 30.6,
+    "Male": 22.5
+  },
+  {
+    "code": "USA",
+    "Country": "United States of America",
+    "value": 33.7,
+    "Female": 34.7,
+    "Male": 32.6
+  },
+  {
+    "code": "UZB",
+    "Country": "Uzbekistan",
+    "value": 15.5,
+    "Female": 18.9,
+    "Male": 12.1
+  },
+  {
+    "code": "VCT",
+    "Country": "Saint Vincent and the Grenadines",
+    "value": 24.3,
+    "Female": 30.9,
+    "Male": 17.9
+  },
+  {
+    "code": "VUT",
+    "Country": "Vanuatu",
+    "value": 35.4,
+    "Female": 41.5,
+    "Male": 29.4
+  },
+  {
+    "code": "WSM",
+    "Country": "Samoa",
+    "value": 43.4,
+    "Female": 51.3,
+    "Male": 36
+  },
+  {
+    "code": "YEM",
+    "Country": "Yemen",
+    "value": 17.2,
+    "Female": 23.4,
+    "Male": 11.1
+  },
+  {
+    "code": "ZAF",
+    "Country": "South Africa",
+    "value": 26.8,
+    "Female": 37.3,
+    "Male": 15.7
+  },
+  {
+    "code": "ZMB",
+    "Country": "Zambia",
+    "value": 8.9,
+    "Female": 14.3,
+    "Male": 3.4
+  },
+  {
+    "code": "ZWE",
+    "Country": "Zimbabwe",
+    "value": 10.5,
+    "Female": 18.5,
+    "Male": 2.4
+  }
+]

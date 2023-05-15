@@ -1,0 +1,190 @@
+import data from "./data/json2014.json";
+import data2 from "./data/data.json";
+import L from "leaflet";
+
+
+async function loadGeoJSON(url) {
+    const response = await fetch(url);
+    const jsonData = await response.json();
+    return jsonData;
+  }
+
+window.addEventListener("DOMContentLoaded", async () => {
+
+    document.getElementById("slider").addEventListener("input", function (e) {
+        const value = e.target.value;
+        document.getElementById("map1").style.width = `${value}%`;
+      });
+      
+    const countriesGeoJSON = await loadGeoJSON(
+        "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"
+      );
+
+
+      const map1 = L.map("map1", {
+        center: [0, 0],
+        zoom: 2,
+      });
+      
+      const map2 = L.map("map2", {
+        center: [0, 0],
+        zoom: 2,
+      });
+
+      affichecarte1(map1);
+    affichecarte2(map2);
+
+ 
+
+
+  function getColor(value) {
+    const minValue = 0;
+    const maxValue = 60;
+    const red = Math.floor((255 * (value - minValue)) / (maxValue - minValue));
+    const blue = Math.floor((255 * (maxValue - value)) / (maxValue - minValue));
+
+    return `rgb(${red}, 0, ${blue})`;
+  }
+
+  function getColor2(obesityRate) {
+    const minValue = 1;
+    const maxValue = 70;
+
+    const red = Math.floor((255 * (obesityRate - minValue)) / (maxValue - minValue));
+    const green = Math.floor((255 * (maxValue - obesityRate)) / (maxValue - minValue));
+
+    return `rgb(${red}, ${green}, 0)`;
+  }
+
+  function findObesityRateByCountryCode(code) {
+    const countryData = data2.find((country) => country.cca3 === code || country.id === code);
+    return countryData ? countryData.obesityRate : 0;
+  }
+
+  function zoomToFeature(e, map) {
+    map.fitBounds(e.target.getBounds());
+    
+  }
+
+  function resetHighlight(e) {
+    let layer = e.target;
+
+    layer.setStyle({
+      weight: 1,
+      opacity: 1,
+      color: "white",
+      dashArray: "3",
+      fillOpacity: 0.7,
+    });
+
+    layer.closePopup();
+  }
+
+  function findValueByCountryCode(code) {
+    const countryData = data.find((country) => country.code === code);
+    return countryData ? countryData.value : 0;
+  }
+
+  function findCountryDataByCountryCode(code) {
+    return data.find((country) => country.code === code);
+  }
+
+  function createPopupContent(countryData) {
+    return `
+        <strong>${countryData.Country}</strong><br>
+        Moyenne : ${countryData.value.toFixed(1)}<br>
+        Femme : ${countryData.Female.toFixed(1)}<br>
+        Homme : ${countryData.Male.toFixed(1)}
+    `;
+  }
+
+  function affichecarte1(map) {
+
+    return L.geoJson(countriesGeoJSON, {
+
+
+      style: function (feature) {
+        const value = findValueByCountryCode(feature.id);
+        return {
+          fillColor: getColor(value),
+          weight: 1,
+          opacity: 1,
+          color: "white",
+          dashArray: "3",
+          fillOpacity: 0.7,
+         };
+      },
+      onEachFeature: function (feature, layer) {
+        layer.on({
+          mousemove: highlightFeature,
+          mouseout: resetHighlight,
+          click: (e) => zoomToFeature(e, map),
+        });
+      },
+    }).addTo(map);;
+  }
+
+
+
+
+  function affichecarte2(map) {
+
+  return L.geoJson(countriesGeoJSON, {
+      style: function (feature) {
+        const obesityRate = findObesityRateByCountryCode(feature.id);
+        return {
+          fillColor: getColor2(obesityRate),
+          weight: 1,
+          opacity: 1,
+          color: "white",
+          dashArray: "3",
+          fillOpacity: 0.7,
+        
+         };
+      },
+      onEachFeature: function (feature, layer) {
+        layer.on({
+          mousemove: highlightFeature,
+          mouseout: resetHighlight,
+          click: (e) => zoomToFeature(e, map),
+        });
+      },
+    }).addTo(map);;
+  }
+
+  function highlightFeature(e) {
+    var layer = e.target;
+    const countryCode = layer.feature.id;
+    const countryData = findCountryDataByCountryCode(countryCode);
+
+    layer.setStyle({
+      weight: 0,
+      color: "#666",
+      dashArray: "",
+      fillOpacity: 1,
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+      layer.bringToFront();
+    }
+
+    if (countryData) {
+      const popupContent = createPopupContent(countryData);
+      layer.bindPopup(popupContent).openPopup();
+    }
+  }
+
+  function resetHighlight(e) {
+    let layer = e.target;
+
+    layer.setStyle({
+      weight: 1,
+      opacity: 1,
+      color: "white",
+      dashArray: "3",
+      fillOpacity: 0.7,
+    });
+
+    layer.closePopup();
+  }
+});
